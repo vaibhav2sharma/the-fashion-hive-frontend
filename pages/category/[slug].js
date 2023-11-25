@@ -116,7 +116,7 @@ const maxResult = 3;
  export async function getStaticPaths() {
     const category =   await fetchDataFromapi('/api/categories?populate=*')
 
-    const paths = category.data.map((c)=>({
+    const paths = category?.data?.map((c)=>({
         params:{
           slug:c.attributes.slug
         }
