@@ -49,7 +49,7 @@ const MenuMobile = ({showCatMenu, setShowCatMenu , setMobileMenu , categories })
 
                             {showCatMenu &&(
 
-                                <ul className=' bg-black/[0.05] -mx-5 mt-4 -mb-4 '>
+                                <ul className=' bg-black/[0.05] -mx-5 mt-2 -mb-4 '>
                                     {categories?.map(({attributes: c, id})=>{
 
                                         return(
