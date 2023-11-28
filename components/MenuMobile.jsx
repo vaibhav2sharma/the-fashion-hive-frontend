@@ -58,7 +58,7 @@ const MenuMobile = ({showCatMenu, setShowCatMenu , setMobileMenu , categories })
                                                 setMobileMenu(false)
                                                 
                                             }} >
-                                            <li className='py-4 px-8 border-t  flex justify-between '>
+                                            <li className='py-2.5 px-8 border-t  flex justify-between '>
                                                 {c.name}
                                                 <span className='opacity-50 text-sm'>{`(${c.products.data.length})`}</span>
                                             
