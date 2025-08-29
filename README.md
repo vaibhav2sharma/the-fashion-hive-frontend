@@ -1,5 +1,7 @@
 # 🛍️ Fashion Hive
 
+Link: https://the-fashion-hive-frontend.vercel.app/
+
 **Fashion Hive** is a modern e-commerce platform built with **React** for the frontend and **Strapi CMS** for backend content management. It provides a smooth user shopping experience with real-time product updates and a dynamic admin dashboard for managing inventory.
 
 ---
